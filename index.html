@@ -200,17 +200,37 @@
 
     <!-- Section Contacto -->
     <section>
-        <h2>Contacto</h2>
-        <p>Formulario</p>
+        <h2 class="py-5">Contacto</h2>
+        <form class="container pb-5">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info text-light">Enviar</button>
+        </form>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <h2>Viajes Chile</h2>
-        <i class="fa-brands fa-square-github fa-xl"></i>
-        <i class="fa-brands fa-linkedin fa-xl"></i>
-        <i class="fa-brands fa-square-twitter fa-xl"></i>
-        <i class="fa-brands fa-square-facebook fa-xl"></i>
+    <footer class="container-fluid bg-info">
+        <div class="container px-5 py-3">
+            <div class="row">
+                <h2 class="col-12 col-md-6 text-center text-md-start ps-md-5">Viajes Chile</h2>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end pe-md-5">
+                    <i class="fa-brands fa-square-github fa-3x ps-3"></i>
+                    <i class="fa-brands fa-linkedin fa-3x ps-3"></i>
+                    <i class="fa-brands fa-square-twitter fa-3x ps-3"></i>
+                    <i class="fa-brands fa-square-facebook fa-3x ps-3"></i>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- JS -->

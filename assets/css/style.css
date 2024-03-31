@@ -4,26 +4,26 @@
 
 body {
     background-color: #000;
+    color: white;
 }
 
 a {
     text-decoration: none;
 }
 
-h1,
-h2,
-p,
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .nav-link,
 .card-title,
+.card-text,
 .fa-solid,
 .fa-brands {
     color: #fff;
 }
 
-h2 {
-    text-transform: uppercase;
-    text-align: center;
-}
-.card{
+.card {
     max-width: 18rem;
 }
