@@ -2,6 +2,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
     color: white;
@@ -16,6 +21,7 @@ h2 {
     text-align: center;
 }
 
+/* Color blanco para algunas clases de textos e iconos fontawesome */
 .nav-link,
 .card-title,
 .card-text,
@@ -27,3 +33,4 @@ h2 {
 .card {
     max-width: 18rem;
 }
+  
