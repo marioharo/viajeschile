@@ -12,10 +12,18 @@ a {
 
 h1,
 h2,
-p {
+p,
+.nav-link,
+.card-title,
+.fa-solid,
+.fa-brands {
     color: #fff;
 }
 
 h2 {
     text-transform: uppercase;
+    text-align: center;
+}
+.card{
+    max-width: 18rem;
 }
