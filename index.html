@@ -24,33 +24,36 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Viajes Chile" width="50px"></a>
-            <h1 class="mb-0 fs-3">Viajes Chile</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#quienessomos">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#destacados">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Viajes Chile" width="50px"></a>
+                <h1 class="mb-0 fs-3">Viajes Chile</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quienessomos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Section Carousel -->
     <section>
@@ -226,22 +229,23 @@
                 <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end pe-md-5">
                     <!-- Iconos Fontawesome de rr.ss con tooltips -->
                     <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                        <i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Got to Github!"
+                        <i data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ir a Github!"
                             class="fa-brands fa-square-github fa-3x ms-3"></i></a>
                     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i
-                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Got to LinkedIn!"
+                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ir a LinkedIn!"
                             class="fa-brands fa-linkedin fa-3x ms-3"></i></a>
                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i data-bs-toggle="tooltip"
-                            data-bs-placement="top" data-bs-title="Got to Twitter!"
+                            data-bs-placement="top" data-bs-title="Ir a Twitter!"
                             class="fa-brands fa-square-twitter fa-3x ms-3"></i></a>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
-                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Got to Facebook!"
+                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ir a Facebook!"
                             class="fa-brands fa-square-facebook fa-3x ms-3"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
+    
     <!-- Bootstrap Poopers & JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -249,8 +253,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <!-- jQuery Core 3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <!-- JS -->
     <script src="assets/js/script.js"></script>
+    
 </body>
 
 </html>
