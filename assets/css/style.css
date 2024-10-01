@@ -52,5 +52,5 @@ h2 {
 .is-scrolling {
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);*/
 }
